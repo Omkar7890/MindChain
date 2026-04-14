@@ -1,0 +1,11 @@
+{
+  "name": "mindchain",
+  "version": "1.0.0",
+  "description": "MERN full-stack wellness marketplace",
+  "scripts": {
+    "client": "cd frontend && npm start",
+    "server": "cd backend && npm start",
+    "start": "npm run server"
+  },
+  "license": "ISC"
+}
