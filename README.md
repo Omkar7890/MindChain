@@ -101,3 +101,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <b>Be kind to your mind, it will be fine.</b>
 </p>
 
+<div align="center">
+
+[![Live Site](https://img.shields.io/badge/Visit_Live_Site-mind--chain.vercel.app-f58b44?style=for-the-badge)](https://mind-chain.vercel.app/)
+
+</div>
