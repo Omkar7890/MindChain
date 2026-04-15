@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import headspaceLogo from '../images/headspace_dot.png'
 import useDarkMode from '../hooks/useDarkMode.js'
-import WalletProfile from './WalletProfile'
 import { FaBook, FaDumbbell, FaUsers } from 'react-icons/fa'
 import { MdOutlineLightMode, MdOutlineDarkMode, MdMenu, MdClose } from 'react-icons/md'
 
@@ -75,12 +74,9 @@ const Navbar = () => {
                 <MdOutlineDarkMode size={24} />
               )}
             </button>
-            <div className='ml-3'>
-              <WalletProfile />
-            </div>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className='lg:hidden p-2 ml-3 rounded-md text-[#4b5161] dark:text-[#fdf5eb] hover:bg-[#fdf5eb] dark:hover:bg-[#4b5161] transition-colors'
+              className='lg:hidden p-2 ml-2 rounded-md text-[#4b5161] dark:text-[#fdf5eb] hover:bg-[#fdf5eb] dark:hover:bg-[#4b5161] transition-colors'
               aria-label='Toggle menu'>
               {isMenuOpen ? <MdClose size={26} /> : <MdMenu size={26} />}
             </button>
